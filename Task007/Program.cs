@@ -9,13 +9,16 @@ Console.Clear();
 Console.WriteLine("Введите трехзначное число: ");
 int number = int.Parse(Console.ReadLine());
 
-int firstnumber = number / 100;
-int secondnumber = number % 10;
 
-string ab = firstnumber.ToString();
-string dc = secondnumber.ToString();
+int result = (number / 100) * 10 + number % 10;
 
-string FinalNumber = ab+dc; 
-Console.WriteLine("Итоговое число " + FinalNumber);
+
+System.Console.WriteLine("Число без второй цифры: " + result);
+
+//string ab = firstnumber.ToString();
+//string dc = secondnumber.ToString();
+
+//string FinalNumber = ab+dc; 
+//Console.WriteLine("Итоговое число " + FinalNumber);
 
 
