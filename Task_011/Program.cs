@@ -12,6 +12,7 @@ Console.WriteLine("Введите координаты второй точки B
 double x2 = double.Parse(Console.ReadLine()), y2 = double.Parse(Console.ReadLine()), z2 = double.Parse(Console.ReadLine());
 
 double D = Math.Sqrt(((x2 - x1)*(x2 - x1)) + ((y2 - y1)*(y2 - y1)) + ((z2 - z1)*(z2 - z1)));
+// double D = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z2-z1, 2));
 
 
 double d = Math.Round(D, 2);
@@ -19,4 +20,3 @@ double d = Math.Round(D, 2);
 
 Console.WriteLine("Расстояние между точками: " + d);
 
-//int SecondPoint = 
